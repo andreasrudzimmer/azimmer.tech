@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,500;1,500&display=swap');
+
+
+
+
+
+body{
+    margin: 0;
+    
+}
+
+.landingPage {
+    padding-top: 0;
+    height: 100vh;
+    width: 100%;
+    background-image: url("MultiColor.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+.landingPage > img {
+    width:40px;
+    height: auto;
+    margin-top: 30px;
+    position:absolute;
+    right: 30px;
+}
+
+.header {
+    padding: 0;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-family: 'Exo 2', sans-serif;
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+
+  }
+
+  .header > h3{
+      font-size: 20px;
+      margin-bottom: -30px;
+  }
+
+  .header p {
+      margin-top: -20px;
+  }
+
+ .LI-profile-badge{
+    padding: 0;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin: 0;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-family: 'Exo 2', sans-serif;
+ }
+
